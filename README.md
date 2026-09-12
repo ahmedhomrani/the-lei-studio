@@ -24,7 +24,7 @@ Loaded from Google Fonts: Pinyon Script (logo-style script), Cormorant Garamond 
 
 ## Deployment (GitHub Pages)
 
-The site is published at <https://saifatom.github.io/the-lei-studio/>.
+The site is published at <https://ahmedhomrani.github.io/the-lei-studio/>.
 
 - `vite.config.js` sets `base: '/the-lei-studio/'` so asset URLs include the repository name. Change it if the repository is renamed or a custom domain is used (`base: '/'`).
 - `.github/workflows/deploy.yml` builds the site and deploys `dist/` on every push to `main`.
