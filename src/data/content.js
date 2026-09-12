@@ -2,6 +2,7 @@
 // site is hosted under a sub-path (GitHub Pages).
 const BASE = import.meta.env.BASE_URL
 export const LOGO = `${BASE}logo.jpeg`
+export const LOGO2 = `${BASE}logo2.jpg`
 const gainage = `${BASE}images/gainage.jpeg`
 const capsulesNailArt = `${BASE}images/capsules-nailart.jpeg`
 const nailArtArtisanal = `${BASE}images/nailart-artisanal.jpeg`
