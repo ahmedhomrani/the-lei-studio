@@ -17,6 +17,7 @@ export const CONTACT = {
   mapsLink: 'https://maps.app.goo.gl/X6YWVvPwbLVGaFSW6',
   mapsEmbed:
     'https://maps.google.com/maps?q=36.8754948,10.1805517&z=17&hl=fr&output=embed',
+  Profiler: 'https://www.linkedin.com/in/ahmed-homrani',
 }
 
 export const ABOUT = {

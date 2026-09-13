@@ -19,6 +19,7 @@ export default function Footer() {
       </div>
       <div className="container footer__copy">
         © {new Date().getFullYear()} The Lei Studio. Tous droits réservés.
+         Created By <a href={CONTACT.Profiler} target="_blank" rel="noreferrer">Ahmed Homrani</a>
       </div>
     </footer>
   )
