@@ -10,9 +10,9 @@ const capsulesDelicat = `${BASE}images/capsules-delicat.jpeg`
 const reconstruction = `${BASE}images/reconstruction.jpeg`
 
 export const CONTACT = {
-  whatsapp: '+216 29 166 720',
-  whatsappHref: 'https://wa.me/21629166720',
-  phone: '+216 27 454 112',
+  whatsapp: '+33 629166720',
+  whatsappHref: 'https://wa.me/33629166720',
+  phone: '+33 1 23 45 67 89',
   phoneHref: 'tel:+21627454112',
   mapsLink: 'https://maps.app.goo.gl/X6YWVvPwbLVGaFSW6',
   mapsEmbed:
