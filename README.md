@@ -24,8 +24,9 @@ Loaded from Google Fonts: Pinyon Script (logo-style script), Cormorant Garamond 
 
 ## Deployment (GitHub Pages)
 
-The site is published at <https://ahmedhomrani.github.io/the-lei-studio/>.
+The site is published at <https://thelei.studio/> (custom domain, DNS managed at OVH).
 
-- `vite.config.js` sets `base: '/the-lei-studio/'` so asset URLs include the repository name. Change it if the repository is renamed or a custom domain is used (`base: '/'`).
+- `vite.config.js` sets `base: '/'` because the site is served from the custom domain root. If the custom domain is ever removed, set it back to `base: '/the-lei-studio/'`.
+- The custom domain is set in the repository settings under **Pages → Custom domain** (a `CNAME` file is not needed when deploying with GitHub Actions).
 - `.github/workflows/deploy.yml` builds the site and deploys `dist/` on every push to `main`.
 - In the repository settings, under **Pages**, set **Source** to **GitHub Actions** (not "Deploy from a branch").

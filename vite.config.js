@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Served from https://ahmedhomrani.github.io/the-lei-studio/ on GitHub Pages,
-// so every asset URL must be prefixed with the repository name.
+// Served from the custom domain https://thelei.studio/ (GitHub Pages),
+// so assets are served from the site root.
 export default defineConfig({
-  base: '/the-lei-studio/',
+  base: '/',
   plugins: [react()],
 })
